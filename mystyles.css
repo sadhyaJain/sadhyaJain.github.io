@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #081b29;
+    color: white;
+    background-color: #000000;
+    opacity: 1;
+    background-image: radial-gradient(#0095ff 2px, transparent 2px), radial-gradient(#0095ff 2px, #000000 2px);
+    background-size: 80px 80px;
+    background-position: 0 0, 40px 40px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    padding-top: 20px;
+
+
+}
+
+.nav-items {
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    text-decoration: none;
+
+}
+
+.nav-items a {
+    text-decoration: none;
+
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    font-size: auto;
+    color: white;
+    display: inline-block;
+    font-weight: 600px;
+    justify-content: end;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 0;
+}
+
+/* .logos a , img{
+        display: flex;
+        justify-content: space-between;
+        width: 20px;
+        height: 20px;
+    } */
+.side-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+    padding: 0 5px;
+    cursor: pointer;
+
+}
+
+.nav-itmes {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items a {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    justify-content: flex-end;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: aqua;
+    justify-content: end;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.home-content h1 {
+    font: size 60px;
+    font-weight: 700;
+    color: aqua;
+    padding-top: 230px;
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid pink;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.About {
+    text-align: center;
+    height: 1000px;
+    margin-left: 110;
+    padding-top: 300px;
+}
+
+.Projects {
+    height: 1000px;
+    margin-left: 110;
+    padding-top: 350px;
+}
+
+.Education {
+    height: 1000px;
+    margin-left: 110;
+    padding-top: 350px;
+}
+
+.Contact {
+    height: 750px;
+
+    padding-top: 350px;
+    margin: 30px 0;
+}
+
+.contact h1 {
+    height: 20px;
+}
+    
+
+
+   
+
+    
+        
+    
+      
